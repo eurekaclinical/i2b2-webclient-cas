@@ -77,7 +77,7 @@ i2b2.PM.model.IdleTimer.subscribe("idle", function(){
 				i2b2.PM.doCASLogin();
 				i2b2.PM.model.dialogTimeout.hide();
 				i2b2.h.LoadingMask.hide();
-				};														   
+				};	 													   
 			i2b2.PM.model.dialogTimeout = new YAHOO.widget.SimpleDialog("dialogTimeout", {
 					width: "400px",
 					fixedcenter: true,
