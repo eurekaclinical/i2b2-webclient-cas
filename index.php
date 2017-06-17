@@ -29,6 +29,13 @@ $pmURL = "http://127.0.0.1:8080/i2b2/rest/PMService/getServices";
 $pmCheckAllRequests = false;
 
 $WHITELIST = array(
+		"http://",
+		"http://127.0.0.1:9090/axis2/rest/",
+		"http://localhost:9090/axis2/rest/",
+		"http://127.0.0.1:7070/i2b2/rest/",
+		"http://localhost:7070/i2b2/rest/",
+		"http://webservices.i2b2.org",
+		"https://webservices.i2b2.org",
         "http" . (($_SERVER['SERVER_PORT'] == '443') ? 's' : '' ) . "://" . $_SERVER['HTTP_HOST'],
         "http://services.i2b2.org",
         "http://127.0.0.1:9090",
@@ -41,8 +48,10 @@ $WHITELIST = array(
 
 
 $BLACKLIST = array(
-        "http://127.0.0.1:9090/test",
-        "http://localhost:9090/test"
+		"http://127.0.0.1:9090/test",
+		"http://localhost:9090/test",
+		"http://127.0.0.1:7070/test",
+		"http://localhost:7070/test"
 );
 
 // There is nothing to configure below this line
