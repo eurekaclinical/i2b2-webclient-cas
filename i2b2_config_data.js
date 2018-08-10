@@ -10,7 +10,7 @@
 		  urlCellPM: "http://localhost:8443/i2b2/services/PMService/",
 		  allowAnalysis: true,
 		  debug: false,
-			"CAS_SERVER": "https://localhost:8443/eurekaclinical-i2b2-integration-webapp"
+			"CAS_SERVER": "https://localhost:8443/eurekaclinical-i2b2-integration-webapp" 
 		}
 	]
 	//-------------------------------------------------------------------------------------------
