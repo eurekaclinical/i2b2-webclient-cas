@@ -178,7 +178,7 @@ function readCookie(name) {
     }
     return null;
 }
- 
+
 function eraseCookie(name) {
     createCookie(name,"",-1);
 }
