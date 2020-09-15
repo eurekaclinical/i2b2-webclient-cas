@@ -3,7 +3,7 @@
 [Georgia Clinical and Translational Science Alliance (Georgia CTSA)](http://www.georgiactsa.org), [Emory University](http://www.emory.edu), Atlanta, GA
 
 ## What does it do?
-This is a stock i2b2 1.7.09c web client patched with support for 
+This is a stock i2b2 1.7.12a web client patched with support for 
 * delegating authentication to [Eureka! Clinical CAS](https://github.com/eurekaclinical/cas) or other CAS server that supports version 2 of the CAS protocol
 * automated i2b2 account creation using the [Eureka! Clinical i2b2 Integration microservice](https://github.com/eurekaclinical/eurekaclinical-i2b2-integration-service)
 * requiring users to sign an electronic data use agreement using [Eureka! Clinical User Agreement microservice](https://github.com/eurekaclinical/eurekaclinical-user-agreement-service)
@@ -11,6 +11,9 @@ This is a stock i2b2 1.7.09c web client patched with support for
 The CAS-related code is adapted from similar code for an older version of i2b2 by Dan Connolly found at https://bitbucket.org/DanC/i2b2-webclient-cas.
 
 ## Version history
+### Version 1.4
+Updated to version 1.7.12a of the web client.
+
 ### Version 1.3
 Updated to version 1.7.09c of the web client.
 
