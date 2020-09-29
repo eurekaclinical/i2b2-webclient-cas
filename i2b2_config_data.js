@@ -11,7 +11,6 @@
                   allowAnalysis: true,
                   debug: true,
 		  "CAS_server": "https://login.emory.edu:4443/idp/profile/cas/",
-                  "cas_server": "https://login.emory.edu:4443/idp/profile/cas/",
                   "CAS_LOGOUT_TYPE": "LOCAL",
                   "EC_LOGOUT_LANDING_PAGE_URL": "https://i2b2webqa1.cc.emory.edu?logout=true",
                   "EC_I2B2_INTEGRATION_URL": "https://i2b2webqa1.cc.emory.edu/eurekaclinical-i2b2-integration-webapp",
